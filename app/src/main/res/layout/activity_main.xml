@@ -7,14 +7,26 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/birthday"
+        android:id="@+id/Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed-light"
-        android:padding="60dp"
+        android:padding="75dp"
         android:text="Lenzinger Security"
         android:textColor="@android:color/black"
-        android:textSize="36sp"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Subheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:padding="130dp"
+        android:text="Guaranteed Top Quality Security"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
         android:textStyle="bold" />
 
 
