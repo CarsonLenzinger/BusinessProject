@@ -6,6 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
     <TextView
         android:id="@+id/Title"
         android:layout_width="wrap_content"
@@ -14,7 +21,7 @@
         android:paddingTop="75dp"
         android:layout_centerHorizontal="true"
         android:text="Lenzinger Security"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="35sp"
         android:textStyle="bold" />
 
@@ -27,7 +34,7 @@
         android:gravity="center"
         android:layout_below="@id/Title"
         android:text="Guaranteed Top Quality Security"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="25sp"
         android:textStyle="bold" />
 
@@ -46,7 +53,7 @@
         android:fontFamily="sans-serif-condensed-light"
         android:padding="10dp"
         android:text="269-123-4567"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="25sp"
         android:textStyle="bold"
         android:layout_below="@id/Hours"/>
@@ -57,7 +64,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed-light"
         android:text="Lenzinger.sec@gmail.com"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="25sp"
         android:paddingLeft="10dp"
         android:textStyle="bold"
@@ -69,7 +76,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed-light"
         android:text="Richland,MI"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="25sp"
         android:padding="10dp"
         android:textStyle="bold"
@@ -80,12 +87,14 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed-light"
         android:text="Hours: 9:00 a.m. to 5:00 p.m."
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="25sp"
         android:padding="10dp"
         android:textStyle="bold"
         android:layout_below="@id/Logo"
         android:layout_centerHorizontal="true"/>
+
+
 
 
 
