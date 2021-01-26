@@ -56,7 +56,8 @@
         android:textColor="@android:color/white"
         android:textSize="25sp"
         android:textStyle="bold"
-        android:layout_below="@id/Hours"/>
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/about"/>
 
     <TextView
         android:id="@+id/email"
@@ -68,6 +69,7 @@
         android:textSize="25sp"
         android:paddingLeft="10dp"
         android:textStyle="bold"
+        android:layout_centerHorizontal="true"
         android:layout_below="@id/phonenumber"/>
 
     <TextView
@@ -80,6 +82,7 @@
         android:textSize="25sp"
         android:padding="10dp"
         android:textStyle="bold"
+        android:layout_centerHorizontal="true"
         android:layout_below="@id/email"/>
     <TextView
         android:id="@+id/Hours"
@@ -92,6 +95,19 @@
         android:padding="10dp"
         android:textStyle="bold"
         android:layout_below="@id/Logo"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Lenzinger Security is a private security company know for its top quality services with the newest grade technology to help ensure the best protection and it's know for its operatives having the very high levels of training."
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_below="@id/Hours"
         android:layout_centerHorizontal="true"/>
 
 
