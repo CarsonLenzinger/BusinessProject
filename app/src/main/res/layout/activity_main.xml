@@ -28,13 +28,25 @@
         android:textColor="@android:color/black"
         android:textSize="25sp"
         android:textStyle="bold" />
-5
+
     <ImageView
         android:id="@+id/Logo"
         android:layout_width="450dp"
         android:layout_height="550dp"
         android:paddingTop="225dp"
         android:src="@drawable/Security" />
+
+    <TextView
+        android:id="@+id/phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:padding="10dp"
+        android:text="269-123-4567"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@id/Logo"/>
 
 
 </RelativeLayout>
