@@ -14,7 +14,7 @@
         android:src="@drawable/background" />
 
     <TextView
-        android:id="@+id/Title"
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed-light"
@@ -26,25 +26,25 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/Subheading"
+        android:id="@+id/subheading"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed-light"
         android:gravity="center"
-        android:layout_below="@id/Title"
+        android:layout_below="@id/title"
         android:text="Guaranteed Top Quality Security"
         android:textColor="@android:color/white"
         android:textSize="25sp"
         android:textStyle="bold" />
 
     <ImageView
-        android:id="@+id/Logo"
+        android:id="@+id/logo"
         android:layout_centerHorizontal="true"
         android:layout_width="300dp"
         android:layout_height="200dp"
-        android:layout_below="@id/Subheading"
-        android:src="@drawable/Security" />
+        android:layout_below="@id/subheading"
+        android:src="@drawable/logo" />
 
     <TextView
         android:id="@+id/phonenumber"
@@ -85,7 +85,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@id/email"/>
     <TextView
-        android:id="@+id/Hours"
+        android:id="@+id/hours"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed-light"
@@ -94,7 +94,7 @@
         android:textSize="25sp"
         android:padding="10dp"
         android:textStyle="bold"
-        android:layout_below="@id/Logo"
+        android:layout_below="@id/logo"
         android:layout_centerHorizontal="true"/>
 
     <TextView
@@ -107,7 +107,7 @@
         android:textSize="20sp"
         android:padding="10dp"
         android:textStyle="bold"
-        android:layout_below="@id/Hours"
+        android:layout_below="@id/hours"
         android:layout_centerHorizontal="true"/>
 
 
