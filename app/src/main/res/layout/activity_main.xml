@@ -39,6 +39,7 @@
         android:textStyle="bold" />
 
     <ImageView
+        android:paddingTop="10dp"
         android:id="@+id/logo"
         android:layout_centerHorizontal="true"
         android:layout_width="300dp"
